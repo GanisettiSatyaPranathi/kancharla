@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hope Foundation</title>
+
+  <!-- Google Fonts (Optional for better typography) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="kancharla3.css" />
+   <!-- cdn link for favicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <!-- Logo Image -->
+        <div class="logo">
+          <img src="kflogo.jpg" alt="Hope Foundation Logo" class="logo-img" />
+          </div>
+          <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">AboutUs</a></li>
+          <li><a href="#mission">Initiatives</a></li>
+          <li><a href="#donate">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button><b>Donate Now</b></button>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Image Carousel -->
+  <section class="carousel-section">
+    <div class="carousel-container">
+      <div class="carousel-slide active">
+        <img src="kfsir1.jpg" alt="Carousel Image 1" />
+      </div>
+      <div class="carousel-slide">
+        <img src="kfsir2.jpg" alt="Carousel Image 2" />
+      </div>
+      <div class="carousel-slide">
+        <img src="kfsir3.jpg" alt="Carousel Image 3" />
+      </div>
+      
+
+      <!-- Controls -->
+      <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <span class="indicator" data-slide="0"></span>
+        <span class="indicator" data-slide="1"></span>
+        <span class="indicator" data-slide="2"></span>
+        <span class="indicator" data-slide="3"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+        <img src="srikanthsir.jpg" class="srikanthsir">
+      <h1>Welcome to Kancharla Foundation</h1>
+      <p>At Kancharla Foundation, we believe in the power of transparency and community-driven change. With every donation, we ensure that your contributions directly benefit those in need, fostering trust and making a tangible impact. Join us on our mission to alleviate hunger, provide quality education, and improve healthcare, while also implementing sustainable solutions for lasting development. Together, we can transform lives and build a brighter future for all.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Who We Are</h3>
+          <p>The Kancharla Foundation is a non-profit organization founded by Dr. Sreekanth C Kancharla, a visionary leader with a mission to eradicate poverty and uplift rural communities. Driven by this goal, the Foundation implements impactful programs focused on education, health, and sustainable development. </p>
+        </div>
+        <div class="about-img">
+          <img src="kushbu.jpg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section id="mission" style="background-color: #ecf0f1;">
+    <div class="container">
+      <h2>Our Mission & Vision</h2>
+      <div class="values">
+        <div class="value-box">
+          <h3>Mission</h3>
+          <p>Our Vision To eradicate poverty and uplift rural communities by empowering individuals through education, healthcare, and sustainable practices.
+
+Food Security: Regular food drives for underserved communities.
+
+Education: Scholarships and learning programs for children and youth.
+
+Healthcare: Organizing medical camps and providing essential health services.
+
+Sustainability: Promoting organic farming and environmental conservation.
+</p>
+        </div>
+        <div class="value-box">
+          <h3>Vision</h3>
+          <p>Kancharla Foundation is committed to creating a better future for underprivileged communities. With a focus on education, healthcare, and sustainable living, we ensure that every donation makes a tangible impact. Our team works tirelessly to bring positive change and uplift those in need.</p>
+        </div>
+        <div class="value-box">
+          <h3>Values</h3>
+          <p>
+At Hope Foundation, our actions are guided by unwavering principles that shape our mission and define who we are. These values are the heart of everything we do:
+
+Compassion
+We believe in treating every individual with empathy, dignity, and respect—regardless of their circumstances.
+
+ Integrity
+We uphold transparency, accountability, and honesty in all our operations and relationships.
+
+ Empowerment
+We strive to enable individuals and communities to realize their full potential through education, support, and opportunity.
+ </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section -->
+  <section id="donate">
+    <div class="container" style="text-align: center;">
+      <h2>Support us</h2>
+      <p>Your Donation can make a real difference in someone's life</p>
+      <a href="#" class="btn">Donate Now</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="background-color: #bdc3c7;">
+    <div class="container" style="text-align: center;">
+      <h2>Contact Us</h2>
+      <p>Email: kancharlafoundation@gmail.com<br>
+      Phone: +91 9876543280<br>
+      Address: Hyderabad</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Hope Foundation. All Rights Reserved.</p>
+      <div class="social-links">
+      <i class="fa fa-brands fa-facebook"></i>
+      <i class="fa fa-brands fa-instagram"></i>
+      <i class="fa fa-brands fa-twitter"></i>
+      <i class="fa fa-brands fa-linkedin"></i>
+         <!-- <a href="#">📘</a>
+        <a href="#">🐦</a>
+        <a href="#">📷</a> -->
+      </div>
+      <p>Transparency • Impact Reports • Volunteer</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Carousel -->
+  <script src="kancharla4.js"></script>
+</body>
+</html>
